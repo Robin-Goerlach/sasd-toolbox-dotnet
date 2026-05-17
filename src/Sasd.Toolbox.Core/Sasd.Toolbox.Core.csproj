@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Sasd.Toolbox.Core</PackageId>
+    <Title>SASD Toolbox Core</Title>
+    <Description>Core helper APIs for SASD Toolbox for .NET.</Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

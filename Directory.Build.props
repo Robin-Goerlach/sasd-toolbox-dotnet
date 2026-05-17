@@ -1,0 +1,33 @@
+<Project>
+  <PropertyGroup>
+    <!--
+      Central project settings for all projects in this repository.
+
+      The target framework is intentionally defined here so that all projects
+      stay aligned. If a future module needs multi-targeting, it can override
+      this setting in its own .csproj file.
+    -->
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>14.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- XML documentation is enabled because this project is intended to be a
+         reusable toolbox library and should be easy to understand later. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Keep warnings visible but do not make the early preview unnecessarily
+         painful to compile. We can tighten this for later releases. -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+
+    <Authors>SASD-GmbH</Authors>
+    <Company>SASD-GmbH</Company>
+    <Product>SASD Toolbox for .NET</Product>
+    <Copyright>Copyright © 2026 SASD-GmbH</Copyright>
+    <RepositoryUrl>https://github.com/Robin-Goerlach/sasd-toolbox-dotnet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Robin-Goerlach/sasd-toolbox-dotnet</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>

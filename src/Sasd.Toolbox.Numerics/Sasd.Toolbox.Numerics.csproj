@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Sasd.Toolbox.Numerics</PackageId>
+    <Title>SASD Toolbox Numerics</Title>
+    <Description>Numerical helper APIs for SASD Toolbox for .NET.</Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sasd.Toolbox.Core\Sasd.Toolbox.Core.csproj" />
+  </ItemGroup>
+</Project>

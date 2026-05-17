@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.10000.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sasd.Toolbox.Core", "src\Sasd.Toolbox.Core\Sasd.Toolbox.Core.csproj", "{39F97EA7-3BA2-4097-86D0-6236AD77E022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sasd.Toolbox.Numerics", "src\Sasd.Toolbox.Numerics\Sasd.Toolbox.Numerics.csproj", "{5E885942-0C93-4F4C-A2C9-A2B9D2B2E28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sasd.Toolbox.DemoConsole", "samples\Sasd.Toolbox.DemoConsole\Sasd.Toolbox.DemoConsole.csproj", "{70A2A02D-3E2B-4CC1-844B-74407E897A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sasd.Toolbox.Core.Tests", "tests\Sasd.Toolbox.Core.Tests\Sasd.Toolbox.Core.Tests.csproj", "{E5E3A644-B453-49E3-84B1-ED7A36568F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sasd.Toolbox.Numerics.Tests", "tests\Sasd.Toolbox.Numerics.Tests\Sasd.Toolbox.Numerics.Tests.csproj", "{78C90F0F-47F6-4BB2-A18D-4DB7A32576F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F97EA7-3BA2-4097-86D0-6236AD77E022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F97EA7-3BA2-4097-86D0-6236AD77E022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F97EA7-3BA2-4097-86D0-6236AD77E022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F97EA7-3BA2-4097-86D0-6236AD77E022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E885942-0C93-4F4C-A2C9-A2B9D2B2E28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E885942-0C93-4F4C-A2C9-A2B9D2B2E28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E885942-0C93-4F4C-A2C9-A2B9D2B2E28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E885942-0C93-4F4C-A2C9-A2B9D2B2E28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A2A02D-3E2B-4CC1-844B-74407E897A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A2A02D-3E2B-4CC1-844B-74407E897A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A2A02D-3E2B-4CC1-844B-74407E897A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A2A02D-3E2B-4CC1-844B-74407E897A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E3A644-B453-49E3-84B1-ED7A36568F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E3A644-B453-49E3-84B1-ED7A36568F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E3A644-B453-49E3-84B1-ED7A36568F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E3A644-B453-49E3-84B1-ED7A36568F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C90F0F-47F6-4BB2-A18D-4DB7A32576F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C90F0F-47F6-4BB2-A18D-4DB7A32576F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C90F0F-47F6-4BB2-A18D-4DB7A32576F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C90F0F-47F6-4BB2-A18D-4DB7A32576F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
